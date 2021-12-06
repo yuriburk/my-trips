@@ -1,6 +1,6 @@
 {
-  "name": "Burk.dev - Boilerplate",
-  "short_name": "Burk.dev",
+  "name": "My Trips",
+  "short_name": "My Trips",
   "icons": [
     {
       "src": "/img/icon-192.png",
@@ -14,7 +14,7 @@
     }
   ],
   "background_color": "#05092B",
-  "description": "Boilerlate using Typescript, React, NextJS and Styled Components!",
+  "description": "Website using Typescript, React, NextJS and Styled Components!",
   "display": "fullscreen",
   "start_url": "/",
   "theme_color": "#05092B"
