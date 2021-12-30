@@ -7,7 +7,6 @@ import { GetPageBySlugQuery, GetPagesQuery } from 'clients/graphql/generated/gra
 
 export default function AboutPage({ heading, body }: PageTemplateProps) {
   const router = useRouter()
-
   if (router.isFallback) {
     return <p>Loading</p>
   }
