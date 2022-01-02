@@ -5,7 +5,7 @@ import client, { GET_PAGES, GET_PAGE_BY_SLUG } from 'clients/graphql'
 import PageTemplate, { PageTemplateProps } from 'templates/Page'
 import { GetPageBySlugQuery, GetPagesQuery } from 'clients/graphql/generated/graphql'
 
-export default function AboutPage({ heading, body }: PageTemplateProps) {
+export default function Page({ heading, body }: PageTemplateProps) {
   const router = useRouter()
   if (router.isFallback) {
     return <p>Loading</p>
