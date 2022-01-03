@@ -55,8 +55,8 @@ const PlacesTemplate = ({ place }: PlacesTemplateProps) => {
       <LinkWrapper href="/">
         <CloseOutline size={32} aria-label="Close" />
       </LinkWrapper>
-      <SC.Wrapper>
-        <SC.Container>
+      <SC.Container>
+        <SC.Content>
           <SC.Heading>{place.name}</SC.Heading>
           {place.description && <SC.Body dangerouslySetInnerHTML={{ __html: place.description.html }} />}
           <SC.Gallery>
@@ -64,8 +64,8 @@ const PlacesTemplate = ({ place }: PlacesTemplateProps) => {
               <Image key={`photo-${index}`} src={image.url} alt={place.name} width={1000} height={590} />
             ))}
           </SC.Gallery>
-        </SC.Container>
-      </SC.Wrapper>
+        </SC.Content>
+      </SC.Container>
     </>
   )
 }

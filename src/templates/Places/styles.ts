@@ -1,10 +1,14 @@
 import styled from 'styled-components'
 
-export const Wrapper = styled.div`
+export const Container = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   padding: ${({ theme }) => theme.sizes.large} ${({ theme }) => theme.sizes.medium};
 `
 
-export const Container = styled.div`
+export const Content = styled.div`
   max-width: ${({ theme }) => theme.sizes.container};
 `
 
