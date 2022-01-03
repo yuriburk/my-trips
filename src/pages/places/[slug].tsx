@@ -16,10 +16,9 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const { place } = await client.request<GetPlaceBySlugQuery>(GET_PLACE_BY_SLUG, { slug: params?.slug })
-  await new Promise((resolve) => setTimeout(() => resolve(true), 10000))
   if (!place) {
     return { notFound: true }
   }
 
-  return { props: { place } }
+  return { props: { place }, revalidate: 10 }
 }
