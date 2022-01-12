@@ -1,4 +1,9 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Trips
+
+![image](https://user-images.githubusercontent.com/11825151/149220667-1e072e34-3bd0-4802-a682-eb964cb34faf.png)
+https://my-trips.burk.dev/
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) using GraphCMS.
 
 ## Getting Started
 
